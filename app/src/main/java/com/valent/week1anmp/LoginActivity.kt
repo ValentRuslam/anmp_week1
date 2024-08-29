@@ -8,4 +8,8 @@ class LoginActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login)
     }
+
+    override fun onResume() {
+        super.onResume()
+    }
 }
