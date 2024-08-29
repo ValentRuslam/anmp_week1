@@ -21,6 +21,7 @@ class MainActivity : AppCompatActivity() {
     override fun onDestroy() {
         Log.d("destroy", "App is closing")
         super.onDestroy()
-        
+
+        //TODO: tolong tambahkan dialog yes no.
     }
 }
